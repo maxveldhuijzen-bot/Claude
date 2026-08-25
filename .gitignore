@@ -1,0 +1,14 @@
+# The built place file IS the deliverable — it stays committed so you can
+# download it straight from the repo. Only stray build output is ignored.
+build/*
+!build/AuraFarmSimulator.rbxlx
+
+# Tooling
+.rojo/
+node_modules/
+*.log
+
+# Secrets — never commit your Open Cloud key
+.env
+.env.*
+!.env.example
