@@ -53,27 +53,37 @@ the product. Warmth comes from understanding the dog, not from exclamation marks
 ## 3. Design system
 
 ### Colors
-Warm, calm, premium — deliberately *not* the loud primary-color palette of typical pet dropshippers.
+
+> **Updated to the system that shipped on the live storefront.** The original warm
+> off-white and terracotta scheme was replaced: it collides with the beige-cream +
+> brass palette family that has become the default AI reach for DTC brands, and
+> "forest green + amber" is going the same way. This palette is derived from the
+> product's own material world instead: brushed steel on a dark ground.
+
+Monochrome plus one saturated pop. Dark theme throughout (one theme per page).
 
 | Role | Hex | Use |
 |---|---|---|
-| **Primary / brand** | `#2F3E35` | Deep forest green — headers, nav, footer |
-| **Accent / CTA** | `#C77D4A` | Warm terracotta — **buttons only**, keep it rare so it commands attention |
-| **Background** | `#FAF7F2` | Warm off-white — page background |
-| **Surface** | `#FFFFFF` | Cards, product images |
-| **Text primary** | `#1E241F` | Body copy |
-| **Text muted** | `#6B7268` | Captions, secondary |
-| **Success / trust** | `#4A7C59` | Checkmarks, in-stock, guarantee badges |
-| **Urgency** | `#B4472F` | Used sparingly — cut-off dates only |
+| **Ground** | `#101412` | Page background, deep graphite green |
+| **Surface** | `#19201D` | Cards, spec panels |
+| **Raised** | `#222B27` | Hover and raised states |
+| **Ink** | `#E9EDEA` | Primary text, cool bone |
+| **Muted** | `#8C9A94` | Body copy, secondary |
+| **Steel** | `#B8C2C0` | Rules, quiet CTAs, table labels |
+| **Accent** | `#E2483D` | Signal red. **Primary CTAs and spec numerals only** |
+| Hairline | `rgba(184,194,192,0.16)` | Section dividers |
 
-**Rule:** terracotta `#C77D4A` appears **only** on buttons. That single discipline makes the
-whole site feel designed rather than assembled, and it measurably helps CTA click-through.
+**Rule:** the signal red appears only on primary CTAs and on the two numbers the
+brand lives on (55dB, 12,000Pa). Nothing else on the page is colored. That single
+restriction is what makes the page read as designed rather than assembled.
 
 ### Typography
-- **Headings:** `Fraunces` (Google Fonts) — 600 weight. Warm, editorial serif; premium without stuffy.
-- **Body:** `Inter` (Google Fonts) — 400/500. Clean, high legibility at small sizes.
-- **Fallback stack:** `Fraunces, Georgia, serif` / `Inter, -apple-system, sans-serif`
-- **Sizes:** H1 `44px` mobile / `64px` desktop · H2 `32/44` · Body `17px` (not 15 — pet buyers skew 35–65, and 17px meaningfully improves readability for that demo)
+- **Display:** `Outfit` (Google Fonts), 500 weight, `letter-spacing: -0.035em`.
+- **Specs, eyebrows, numerals:** `IBM Plex Mono`, 400/500, `letter-spacing: 0.14em` uppercase.
+- **Body:** `Outfit` 300.
+- **Why a mono:** the decibel and pascal figures *are* the product, so they are set
+  in the face that treats numbers as data. The mono is load-bearing, not decorative.
+- **Sizes:** H1 `text-4xl` mobile / `text-6xl` desktop, body `text-base leading-relaxed max-w-[65ch]`.
 
 ### Theme
 **Dawn** (free). PageSpeed ~92, Online Store 2.0, highest-reviewed free theme, and it handles a

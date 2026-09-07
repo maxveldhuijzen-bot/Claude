@@ -22,6 +22,22 @@ Prepared 7 September 2026 · Launch window closes 1 October 2026
 
 ---
 
+## Live storefront
+
+**https://hushcoat-store.higgsfield.app**
+
+A working, scroll-animated concept storefront built to the brand system in
+`03-shopify-store-build.md`. The visitor's scroll plays a generated 15-second
+product film (the device emerging from darkness into macro on the steel), with the
+storefront chapters reading beneath it: the noise-versus-suction tension, the spec
+comparison table, the five tools, the $100 math, the acclimation ladder, questions,
+and the 60-night guarantee.
+
+It exists to show what the copy and positioning feel like as a real page, not as a
+Shopify theme. Port the copy into Shopify using `03-shopify-store-build.md`.
+
+---
+
 ## Documents
 
 | File | Contents |
